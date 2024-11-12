@@ -1,1 +1,1 @@
-something i threw together
+shity starter repo 💔
