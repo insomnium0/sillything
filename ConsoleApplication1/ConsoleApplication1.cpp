@@ -1,22 +1,22 @@
-#include <iostream> // we have to :p
+#include <iostream> // needed
 #include <string> // for std::string
-#include <fstream> // you'll see once we start using like std::ofstream
+#include <fstream> // no idea
 
-using namespace std; // takes away the std like std::cout << -> cout <<
+using namespace std; // takes away the std like std::cout << and lets you just use cout <<
 
 int main() {
-	string personalname; // makes the variable user which we will store info in later
-	string noun; // makes the variable pass which we will store info in later
-	string adjective; //makes the variable filename which we will store info in later
+	string personalname; // makes the variable personalname which we will store info in later
+	string noun; // makes the variable noun which we will store info in later
+	string adjective; //makes the variable adjective which we will store info in later
 
 	cout << "enter a name: " << endl;
-	getline(cin, personalname); // stores the user value taken from the line that we (the user) had entered after user: 
+	getline(cin, personalname); // stores the name that we (the user) had entered. 
 
 	cout << "enter a noun: " << endl;
-	getline(cin, noun); // does the same as the other getline but uses pass
+	getline(cin, noun); // does the same as the other getline but this time its a noun
 
 	cout << "enter an adjective: " << endl;
-	getline(cin, adjective); // stores value at the filename we've established above using string filename;
+	getline(cin, adjective); // stores the adjective string after.
 
 	cout << "Hey " << personalname << ", let me touch your " << noun << ". wow! its so " << adjective << "!";
 
